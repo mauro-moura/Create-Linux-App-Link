@@ -1,7 +1,9 @@
 
+import os
+
 from glob import glob
 
-HOME_FOLDER = '/home/mauro'
+HOME_FOLDER = os.path.expanduser('~')
 base_folder = f'{HOME_FOLDER}/Apps/*/'
 
 apps_list = glob(base_folder)
