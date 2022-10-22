@@ -22,4 +22,7 @@ And then, just run in your terminal (Inside the Apps folder):
 ```bash
 python create_links.py
 ```
+
+![Figure](./images/PythonExecution.png)
+
 This will create a menu entrie for all folders that you've made. Congrats \o/
